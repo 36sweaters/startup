@@ -31,7 +31,7 @@ I am going to use the required technologies in the following ways.
 - **Service** - Backend Services including:
     - login
     - storage of player statistics to judge improvement of players over a given period
-    - retrieval requests to Riot API
+    - retrieval requests to Riot API @ https://developer.riotgames.com/
     - Discord integration
 - **DB/Login** - Stores users and their teams in database. Stores players and stats in database. Register and login users. Credentials securely stored in database.
 - **WebSocket** - Real-time communication between the backend and coaching dashboard
