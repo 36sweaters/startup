@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">TeamView coaching plan</title>
+  <desc id="desc">An original strategy-board illustration linking a team objective to three practice steps.</desc>
+  <defs>
+    <linearGradient id="board" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#17243a"/>
+      <stop offset="1" stop-color="#31506a"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#50d8bb"/>
+      <stop offset="1" stop-color="#78a8ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="4" width="712" height="292" rx="24" fill="url(#board)"/>
+  <path d="M66 70h588M66 230h588" stroke="#fff" stroke-opacity=".1" stroke-width="2"/>
+  <path d="M164 151h392" stroke="url(#accent)" stroke-width="5" stroke-linecap="round"/>
+  <path d="m532 135 24 16-24 16" fill="none" stroke="#78a8ff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <g>
+    <rect x="42" y="101" width="142" height="100" rx="16" fill="#20354b" stroke="#50d8bb" stroke-width="3"/>
+    <rect x="289" y="101" width="142" height="100" rx="16" fill="#20354b" stroke="#70cfe0" stroke-width="3"/>
+    <rect x="536" y="101" width="142" height="100" rx="16" fill="#20354b" stroke="#78a8ff" stroke-width="3"/>
+  </g>
+  <g fill="none" stroke="#e1fff8" stroke-linecap="round" stroke-width="5">
+    <path d="M76 137h72M76 158h52"/>
+    <path d="M323 137h72M323 158h52"/>
+    <path d="M570 137h72M570 158h52"/>
+  </g>
+  <g fill="#50d8bb">
+    <circle cx="112" cy="82" r="7"/>
+    <circle cx="359" cy="82" r="7"/>
+    <circle cx="606" cy="82" r="7"/>
+  </g>
+</svg>

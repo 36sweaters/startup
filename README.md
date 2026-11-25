@@ -68,7 +68,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 - [x] **Links** - Added navigation between the home, team list, team creation, dashboard, player, and coaching pages.
 - [x] **Text** - Added TeamView-specific guidance, example team/player performance, and coaching-plan content based on the startup specification and sketches.
 - [x] **3rd party API placeholder** - Documented planned Riot API profile and match-history retrieval on the team dashboard and player profile; no external API request is implemented.
-- [x] **Images** - Included the existing dashboard sketch on the home page and the existing image placeholder on the player profile.
+- [x] **Images** - Added original local SVG illustrations for the home, team list, roster, player profiles, and coaching workspace; the home page uses a custom strategy illustration instead of the original sketch.
 - [x] **Login placeholder** - Added a login form placeholder on the home page and a clearly labeled demo username on the prototype pages; authentication is not implemented.
 - [x] **DB data placeholder** - Added clearly identified static sample team, roster, and performance content; no database connection or persistence is implemented.
 - [x] **WebSocket placeholder** - Added disconnected status and example live-update output on the team dashboard and coaching workspace; no WebSocket connection is implemented.

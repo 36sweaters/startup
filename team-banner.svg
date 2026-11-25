@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 320" role="img" aria-labelledby="title desc">
+  <title id="title">TeamView strategy arena</title>
+  <desc id="desc">An original abstract arena illustration with a glowing path connecting five team positions.</desc>
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#101b33"/>
+      <stop offset="1" stop-color="#243f5b"/>
+    </linearGradient>
+    <linearGradient id="path" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#46e0c3"/>
+      <stop offset="1" stop-color="#75a7ff"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#54e3c2" stop-opacity=".3"/>
+      <stop offset="1" stop-color="#54e3c2" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="960" height="320" rx="28" fill="url(#background)"/>
+  <circle cx="780" cy="82" r="220" fill="url(#glow)"/>
+  <path d="M56 272 250 78h460l194 194M56 48l194 194h460L904 48" fill="none" stroke="#90a8bd" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M130 160h700" fill="none" stroke="#fff" stroke-opacity=".12" stroke-width="2" stroke-dasharray="8 12"/>
+  <path d="M170 212c115-130 195-130 310-18s192 111 310-43" fill="none" stroke="url(#path)" stroke-width="5" stroke-linecap="round"/>
+  <g fill="#13243a" stroke="url(#path)" stroke-width="4">
+    <circle cx="170" cy="212" r="20"/>
+    <circle cx="325" cy="145" r="20"/>
+    <circle cx="480" cy="194" r="20"/>
+    <circle cx="635" cy="229" r="20"/>
+    <circle cx="790" cy="151" r="20"/>
+  </g>
+  <g fill="#d9fff6">
+    <circle cx="170" cy="212" r="5"/>
+    <circle cx="325" cy="145" r="5"/>
+    <circle cx="480" cy="194" r="5"/>
+    <circle cx="635" cy="229" r="5"/>
+    <circle cx="790" cy="151" r="5"/>
+  </g>
+</svg>
