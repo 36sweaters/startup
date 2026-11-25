@@ -62,16 +62,18 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **HTML pages** - I did not complete this part of the deliverable.
-- [ ] **Proper HTML element usage** - I did not complete this part of the deliverable.
-- [ ] **Links** - I did not complete this part of the deliverable.
-- [ ] **Text** - I did not complete this part of the deliverable.
-- [ ] **3rd party API placeholder** - I did not complete this part of the deliverable.
-- [ ] **Images** - I did not complete this part of the deliverable.
-- [ ] **Login placeholder** - I did not complete this part of the deliverable.
-- [ ] **DB data placeholder** - I did not complete this part of the deliverable.
-- [ ] **WebSocket placeholder** - I did not complete this part of the deliverable.
+- [ ] **Prerequisites** - The home page prominently links to this GitHub repository, but this deliverable currently has only seven repository commits and the required startup-subdomain deployment has not been verified. Complete and verify those prerequisites before submission.
+- [x] **HTML pages** - Added `index.html` (home and login), `teams.html` (team list), `new-team.html` (team creation), `team.html` (team dashboard), `player.html` (player performance), and `coaching.html` (coaching workspace).
+- [x] **Proper HTML element usage** - Each page uses semantic `header`, `nav`, `main`, and `footer` elements, with labeled sections, accessible forms, and structured tables where appropriate.
+- [x] **Links** - Added navigation between the home, team list, team creation, dashboard, player, and coaching pages.
+- [x] **Text** - Added TeamView-specific guidance, example team/player performance, and coaching-plan content based on the startup specification and sketches.
+- [x] **3rd party API placeholder** - Documented planned Riot API profile and match-history retrieval on the team dashboard and player profile; no external API request is implemented.
+- [x] **Images** - Included the existing dashboard sketch on the home page and the existing image placeholder on the player profile.
+- [x] **Login placeholder** - Added a login form placeholder on the home page and a clearly labeled demo username on the prototype pages; authentication is not implemented.
+- [x] **DB data placeholder** - Added clearly identified static sample team, roster, and performance content; no database connection or persistence is implemented.
+- [x] **WebSocket placeholder** - Added disconnected status and example live-update output on the team dashboard and coaching workspace; no WebSocket connection is implemented.
+
+These pages are a static HTML prototype. Forms, authentication, persistence, Riot API access, Discord sharing, and WebSocket communication are documented placeholders for later deliverables.
 
 ## 🚀 CSS deliverable
 

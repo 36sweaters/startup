@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TeamView | Team coaching, clearly</title>
+  </head>
+  <body>
+    <header>
+      <p><a href="index.html">TeamView</a></p>
+      <p><strong>Project repository:</strong> <a href="https://github.com/36sweaters/startup">github.com/36sweaters/startup</a></p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html" aria-current="page">Home and login</a></li>
+          <li><a href="teams.html">My teams</a></li>
+          <li><a href="new-team.html">Create a team</a></li>
+          <li><a href="team.html">Demo roster</a></li>
+          <li><a href="coaching.html">Coaching</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section aria-labelledby="welcome-heading">
+        <h1 id="welcome-heading">Make every practice count.</h1>
+        <p>TeamView turns your amateur League of Legends team's solo queue trends into focused coaching conversations.</p>
+        <p><a href="teams.html">Explore the demo team</a></p>
+      </section>
+
+      <section aria-labelledby="login-heading">
+        <h2 id="login-heading">Coach login</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="username">Username</label>
+            <input id="username" name="username" autocomplete="username" placeholder="coach@example.com">
+          </p>
+          <p>
+            <label for="password">Password</label>
+            <input id="password" name="password" type="password" autocomplete="current-password" placeholder="Password">
+          </p>
+          <button type="button">Sign in (integration placeholder)</button>
+        </form>
+        <p>Authentication is not connected yet. For this static prototype, use the demo pages without signing in.</p>
+        <p>Demo session display: <strong>Riley Morgan, Coach</strong> (placeholder; no account is authenticated).</p>
+      </section>
+
+      <section aria-labelledby="preview-heading">
+        <h2 id="preview-heading">A look at the team dashboard</h2>
+        <figure>
+          <img src="design.jpg" alt="Early hand-drawn TeamView mockup showing team navigation, player lanes, ranks, LP trends, and coaching notes">
+          <figcaption>Early sketch of the roster and performance dashboard.</figcaption>
+        </figure>
+      </section>
+
+      <section aria-labelledby="features-heading">
+        <h2 id="features-heading">Built for team improvement</h2>
+        <ul>
+          <li>Organize starters and substitutes by in-game position.</li>
+          <li>Compare current rank and recent performance with player history.</li>
+          <li>Share actionable coaching plans with your team through Discord.</li>
+        </ul>
+        <p><a href="new-team.html">Set up a team</a> or <a href="coaching.html">review coaching notes</a>.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p>TeamView is an independent coaching prototype. Riot Games and League of Legends are not affiliated with this project.</p>
+      <p><a href="https://github.com/36sweaters/startup">View TeamView on GitHub</a></p>
+    </footer>
+  </body>
+</html>

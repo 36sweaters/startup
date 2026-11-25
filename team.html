@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Esports Team dashboard | TeamView</title>
+  </head>
+  <body>
+    <header>
+      <p><a href="index.html">TeamView</a></p>
+      <p>Signed in as <strong>Riley Morgan</strong> <span>(demo placeholder)</span></p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home and login</a></li>
+          <li><a href="teams.html">My teams</a></li>
+          <li><a href="new-team.html">Create a team</a></li>
+          <li><a href="team.html" aria-current="page">Demo roster</a></li>
+          <li><a href="coaching.html">Coaching</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <header>
+        <h1>Esports Team</h1>
+        <p>Roster overview · Ranked Solo/Duo · Region: North America</p>
+        <p><a href="teams.html">Back to my teams</a> · <a href="new-team.html">Add or manage players</a> · <a href="coaching.html">Open coaching workspace</a></p>
+      </header>
+
+      <section aria-labelledby="roster-heading">
+        <h2 id="roster-heading">Starting roster and recent trends</h2>
+        <table>
+          <caption>Sample player records; values are static demonstration content, not live Riot data</caption>
+          <thead>
+            <tr>
+              <th scope="col">Position</th>
+              <th scope="col">Player</th>
+              <th scope="col">Solo queue rank</th>
+              <th scope="col">LP trend</th>
+              <th scope="col">Coach note</th>
+              <th scope="col">Profile</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Top</th>
+              <td>AJ1</td>
+              <td>Platinum III</td>
+              <td>+20 LP</td>
+              <td>Hot streak</td>
+              <td><a href="player.html#aj1">View player</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Jungle</th>
+              <td>Placeholder</td>
+              <td>Gold I</td>
+              <td>-62 LP</td>
+              <td>Review early pathing</td>
+              <td><a href="player.html#jungle">View player</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Mid</th>
+              <td>M6</td>
+              <td>Silver II</td>
+              <td>+1 LP</td>
+              <td>Struggling on Viktor</td>
+              <td><a href="player.html#mid">View player</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Bottom</th>
+              <td>DAWG</td>
+              <td>Gold III</td>
+              <td>+15 LP</td>
+              <td>Win rate decreasing</td>
+              <td><a href="player.html#bottom">View player</a></td>
+            </tr>
+            <tr>
+              <th scope="row">Support</th>
+              <td>Bee</td>
+              <td>Gold II</td>
+              <td>+98 LP</td>
+              <td>Strong recent progress</td>
+              <td><a href="player.html#support">View player</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>Database placeholder: this table represents team and player records that will later be read from persistent storage.</p>
+      </section>
+
+      <section aria-labelledby="riot-heading">
+        <h2 id="riot-heading">Riot API integration placeholder</h2>
+        <p>Planned service call: retrieve ranked profile and recent match data for each linked player, then compare recent performance with their historical baseline.</p>
+        <p>Status: not connected. Rank, LP, and notes above are example content only; no Riot API request is made by this page.</p>
+        <p><a href="https://developer.riotgames.com/">Riot Games developer portal</a></p>
+      </section>
+
+      <section aria-labelledby="realtime-heading">
+        <h2 id="realtime-heading">Live team updates</h2>
+        <p>WebSocket connection: not connected (placeholder).</p>
+        <p>When implemented, this area will show live roster refreshes and coaching updates sent from the TeamView service.</p>
+        <output aria-live="polite">Example event: “Bee's profile was refreshed” — static sample, not a live message.</output>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="teams.html">My teams</a> · <a href="coaching.html">Coaching</a> · <a href="https://github.com/36sweaters/startup">Project repository</a></p>
+    </footer>
+  </body>
+</html>

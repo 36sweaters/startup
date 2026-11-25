@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Player profile | TeamView</title>
+  </head>
+  <body>
+    <header>
+      <p><a href="index.html">TeamView</a></p>
+      <p>Signed in as <strong>Riley Morgan</strong> <span>(demo placeholder)</span></p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home and login</a></li>
+          <li><a href="teams.html">My teams</a></li>
+          <li><a href="new-team.html">Create a team</a></li>
+          <li><a href="team.html">Demo roster</a></li>
+          <li><a href="coaching.html">Coaching</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <p><a href="team.html">Back to Esports Team roster</a></p>
+      <h1>Player profiles</h1>
+      <p>Static example profiles for the Esports Team roster. Choose a player from the roster to jump to their summary.</p>
+
+      <figure>
+        <img src="placeholder.png" alt="Placeholder for a player's profile image or champion artwork">
+        <figcaption>Player image placeholder. Profile and match information below is static sample content.</figcaption>
+      </figure>
+
+      <section aria-labelledby="aj1-heading" id="aj1">
+        <h2 id="aj1-heading">AJ1 — Top</h2>
+        <dl>
+          <dt>Current rank</dt>
+          <dd>Platinum III (sample)</dd>
+          <dt>Recent LP change</dt>
+          <dd>+20 LP (sample)</dd>
+          <dt>Recent focus</dt>
+          <dd>Strong laning consistency</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="jungle-heading" id="jungle">
+        <h2 id="jungle-heading">Placeholder — Jungle</h2>
+        <dl>
+          <dt>Current rank</dt>
+          <dd>Gold I (sample)</dd>
+          <dt>Recent LP change</dt>
+          <dd>-62 LP (sample)</dd>
+          <dt>Recent focus</dt>
+          <dd>Review early pathing</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="mid-heading" id="mid">
+        <h2 id="mid-heading">M6 — Mid</h2>
+        <dl>
+          <dt>Current rank</dt>
+          <dd>Silver II (sample)</dd>
+          <dt>Recent LP change</dt>
+          <dd>+1 LP (sample)</dd>
+          <dt>Recent focus</dt>
+          <dd>Practice Viktor matchups</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="bottom-heading" id="bottom">
+        <h2 id="bottom-heading">DAWG — Bottom</h2>
+        <dl>
+          <dt>Current rank</dt>
+          <dd>Gold III (sample)</dd>
+          <dt>Recent LP change</dt>
+          <dd>+15 LP (sample)</dd>
+          <dt>Recent focus</dt>
+          <dd>Review recent win-rate trend</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="support-heading" id="support">
+        <h2 id="support-heading">Bee — Support</h2>
+        <dl>
+          <dt>Current rank</dt>
+          <dd>Gold II (sample)</dd>
+          <dt>Recent LP change</dt>
+          <dd>+98 LP (sample)</dd>
+          <dt>Recent focus</dt>
+          <dd>Build on recent progress</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="champions-heading">
+        <h2 id="champions-heading">AJ1 champion performance</h2>
+        <table>
+          <caption>Example recent champion trends (not retrieved from Riot)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Champion</th>
+              <th scope="col">Recent games</th>
+              <th scope="col">Win rate</th>
+              <th scope="col">Coaching observation</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Aatrox</th>
+              <td>8</td>
+              <td>63%</td>
+              <td>Comfort pick; keep reviewing mid-game objective setups.</td>
+            </tr>
+            <tr>
+              <th scope="row">Gnar</th>
+              <td>5</td>
+              <td>40%</td>
+              <td>Review transformation timing before major fights.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="api-heading">
+        <h2 id="api-heading">Third-party data placeholder</h2>
+        <p>Planned integration: the backend will use Riot's API to retrieve the player's ranked profile and recent match history. A backend service will protect credentials and map the returned data into these profile sections.</p>
+        <p>No API request is made and no live player information is shown in this HTML prototype.</p>
+      </section>
+
+      <p><a href="coaching.html">Add a coaching note</a></p>
+    </main>
+
+    <footer>
+      <p><a href="team.html">Team dashboard</a> · <a href="https://github.com/36sweaters/startup">Project repository</a></p>
+    </footer>
+  </body>
+</html>

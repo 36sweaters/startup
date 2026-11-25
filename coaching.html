@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coaching workspace | TeamView</title>
+  </head>
+  <body>
+    <header>
+      <p><a href="index.html">TeamView</a></p>
+      <p>Signed in as <strong>Riley Morgan</strong> <span>(demo placeholder)</span></p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home and login</a></li>
+          <li><a href="teams.html">My teams</a></li>
+          <li><a href="new-team.html">Create a team</a></li>
+          <li><a href="team.html">Demo roster</a></li>
+          <li><a href="coaching.html" aria-current="page">Coaching</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <p><a href="team.html">Back to Esports Team dashboard</a></p>
+      <h1>Coaching workspace</h1>
+      <p>Turn team performance trends into specific practice goals and share them with players.</p>
+
+      <section aria-labelledby="notes-heading">
+        <h2 id="notes-heading">Team coaching notes</h2>
+        <ul>
+          <li><strong>Jungle:</strong> Review early pathing and first objective setup.</li>
+          <li><strong>Mid:</strong> Practice Viktor matchups and safe wave management.</li>
+          <li><strong>Bottom:</strong> Review recent win-rate trend and teamfight positioning.</li>
+        </ul>
+        <p>These notes are static examples and are not saved to a database.</p>
+      </section>
+
+      <section aria-labelledby="plan-heading">
+        <h2 id="plan-heading">Draft a coaching plan</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="recipient">Player or group</label>
+            <select id="recipient" name="recipient">
+              <option>Entire team</option>
+              <option>AJ1 — Top</option>
+              <option>Placeholder — Jungle</option>
+              <option>M6 — Mid</option>
+              <option>DAWG — Bottom</option>
+              <option>Bee — Support</option>
+            </select>
+          </p>
+          <p>
+            <label for="coaching-plan">Practice focus</label>
+            <textarea id="coaching-plan" name="coaching-plan" rows="5" placeholder="Describe one actionable goal for the next practice"></textarea>
+          </p>
+          <button type="button">Save and share (integration placeholder)</button>
+        </form>
+      </section>
+
+      <section aria-labelledby="discord-heading">
+        <h2 id="discord-heading">Discord sharing placeholder</h2>
+        <p>Planned service call: save the coaching plan and post it to the team's Discord channel using a server-side integration.</p>
+        <p>Status: not connected. This page does not save notes or send Discord messages.</p>
+      </section>
+
+      <section aria-labelledby="live-heading">
+        <h2 id="live-heading">Realtime coaching activity</h2>
+        <p>WebSocket status: disconnected (placeholder).</p>
+        <output aria-live="polite">Example update: “A new practice focus was drafted” — static sample, not live activity.</output>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="team.html">Team dashboard</a> · <a href="teams.html">My teams</a> · <a href="https://github.com/36sweaters/startup">Project repository</a></p>
+    </footer>
+  </body>
+</html>

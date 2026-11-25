@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>My teams | TeamView</title>
+  </head>
+  <body>
+    <header>
+      <p><a href="index.html">TeamView</a></p>
+      <p>Signed in as <strong>Riley Morgan</strong> <span>(demo placeholder)</span></p>
+      <nav aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home and login</a></li>
+          <li><a href="teams.html" aria-current="page">My teams</a></li>
+          <li><a href="new-team.html">Create a team</a></li>
+          <li><a href="team.html">Demo roster</a></li>
+          <li><a href="coaching.html">Coaching</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1>My teams</h1>
+      <p>Your teams and their current coaching workspaces appear here.</p>
+      <p><a href="new-team.html">Create a new team</a></p>
+
+      <section aria-labelledby="teams-heading">
+        <h2 id="teams-heading">Team list</h2>
+        <table>
+          <caption>Example teams (static database placeholder)</caption>
+          <thead>
+            <tr>
+              <th scope="col">Team</th>
+              <th scope="col">Roster</th>
+              <th scope="col">Last updated</th>
+              <th scope="col">Workspace</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Esports Team</th>
+              <td>5 players</td>
+              <td>Today, 9:30 AM</td>
+              <td><a href="team.html">Open team dashboard</a></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>This example row is hard-coded HTML. Team records will be loaded from the application database in a later deliverable.</p>
+      </section>
+    </main>
+
+    <footer>
+      <p><a href="index.html">Return to TeamView home</a> · <a href="https://github.com/36sweaters/startup">Project repository</a></p>
+    </footer>
+  </body>
+</html>
