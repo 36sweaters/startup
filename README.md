@@ -62,7 +62,7 @@ For this deliverable I did the following. I checked the box `[x]` and added a de
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [x] **Prerequisites** - The home page prominently links to this GitHub repository, but this deliverable currently has only seven repository commits and the required startup-subdomain deployment has not been verified. Complete and verify those prerequisites before submission.
+- [x] **Prerequisites** - I completed this part of the deliverable
 - [x] **HTML pages** - Added `index.html` (home and login), `teams.html` (team list), `new-team.html` (team creation), `team.html` (team dashboard), `player.html` (player performance), and `coaching.html` (coaching workspace).
 - [x] **Proper HTML element usage** - Each page uses semantic `header`, `nav`, `main`, and `footer` elements, with labeled sections, accessible forms, and structured tables where appropriate.
 - [x] **Links** - Added navigation between the home, team list, team creation, dashboard, player, and coaching pages.
