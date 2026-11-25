@@ -79,13 +79,16 @@ These pages are a static HTML prototype. Forms, authentication, persistence, Rio
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] I completed the prerequisites for this deliverable (Simon deployed, GitHub link, Git commits)
-- [ ] **Visually appealing colors and layout. No overflowing elements.** - I did not complete this part of the deliverable.
-- [ ] **Use of a CSS framework** - I did not complete this part of the deliverable.
-- [ ] **All visual elements styled using CSS** - I did not complete this part of the deliverable.
-- [ ] **Responsive to window resizing using flexbox and/or grid display** - I did not complete this part of the deliverable.
-- [ ] **Use of a imported font** - I did not complete this part of the deliverable.
-- [ ] **Use of different types of selectors including element, class, ID, and pseudo selectors** - I did not complete this part of the deliverable.
+- [ ] **Prerequisites** - The home page prominently links to the startup repository, and the AWS deliverable above documents the deployment domain. The current commit history still needs to demonstrate the required development ownership across the deliverable period; do not treat that requirement as complete based on this CSS change alone.
+- [x] **Visually appealing colors and layout** - Added a shared dark navy and teal visual theme, readable page hierarchy, styled cards, tables, forms, navigation, footer, and illustrations in `styles.css`.
+- [x] **Use of a CSS framework** - Added Pico.css 2 through its jsDelivr stylesheet (not Bootstrap), with TeamView-specific CSS overrides.
+- [x] **All visual elements styled using CSS** - Styled page layout, navigation, headings, links, forms, buttons, tables, figures, portraits, status output, and footer with the shared stylesheet.
+- [x] **Responsive layout** - Used CSS Grid and Flexbox, fluid sizing, mobile breakpoints, and horizontally scrollable tables for narrow screens.
+- [x] **Imported font** - Imported DM Sans and Space Grotesk from Google Fonts.
+- [x] **Selector types** - Used element, class, ID, pseudo-class, pseudo-element, attribute, and media-query selectors in `styles.css`.
+- [x] **Favicon** - Added a local TeamView SVG favicon and linked it from each HTML page.
+
+The Pico.css framework and Google Fonts are loaded from external CDNs; custom TeamView styling is local in `styles.css`.
 
 ## 🚀 React part 1: Routing deliverable
 

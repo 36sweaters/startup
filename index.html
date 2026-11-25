@@ -3,13 +3,20 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#12243a">
     <title>TeamView | Team coaching, clearly</title>
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css">
+    <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <header>
+    <header class="site-header">
       <p><a href="index.html">TeamView</a></p>
       <p><strong>Project repository:</strong> <a href="https://github.com/36sweaters/startup">github.com/36sweaters/startup</a></p>
-      <nav aria-label="Main navigation">
+      <nav class="site-nav" aria-label="Main navigation">
         <ul>
           <li><a href="index.html" aria-current="page">Home and login</a></li>
           <li><a href="teams.html">My teams</a></li>
@@ -20,8 +27,8 @@
       </nav>
     </header>
 
-    <main>
-      <section aria-labelledby="welcome-heading">
+    <main class="page-content">
+      <section class="hero-panel" aria-labelledby="welcome-heading">
         <h1 id="welcome-heading">Make every practice count.</h1>
         <p>TeamView turns your amateur League of Legends team's solo queue trends into focused coaching conversations.</p>
         <p><a href="teams.html">Explore the demo team</a></p>
@@ -31,7 +38,7 @@
         </figure>
       </section>
 
-      <section aria-labelledby="login-heading">
+      <section class="login-panel" aria-labelledby="login-heading">
         <h2 id="login-heading">Coach login</h2>
         <form action="#" method="post">
           <p>
@@ -59,7 +66,7 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="site-footer">
       <p>TeamView is an independent coaching prototype. Riot Games and League of Legends are not affiliated with this project.</p>
       <p><a href="https://github.com/36sweaters/startup">View TeamView on GitHub</a></p>
     </footer>
