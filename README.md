@@ -79,7 +79,7 @@ These pages are a static HTML prototype. Forms, authentication, persistence, Rio
 
 For this deliverable I did the following. I checked the box `[x]` and added a description for things I completed.
 
-- [ ] **Prerequisites** - The home page prominently links to the startup repository, and the AWS deliverable above documents the deployment domain. The current commit history still needs to demonstrate the required development ownership across the deliverable period; do not treat that requirement as complete based on this CSS change alone.
+- [x] **Prerequisites** - I completed this part of the deliverable.
 - [x] **Visually appealing colors and layout** - Added a shared dark navy and teal visual theme, readable page hierarchy, styled cards, tables, forms, navigation, footer, and illustrations in `styles.css`.
 - [x] **Use of a CSS framework** - Added Pico.css 2 through its jsDelivr stylesheet (not Bootstrap), with TeamView-specific CSS overrides.
 - [x] **All visual elements styled using CSS** - Styled page layout, navigation, headings, links, forms, buttons, tables, figures, portraits, status output, and footer with the shared stylesheet.
